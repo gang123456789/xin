@@ -1,0 +1,44 @@
+body,header,li,ul,dl,dt,dd{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+header{width: 100%;height: 65px;background: #E54847;position: fixed;}
+header li a{font-size: 19px;color: #fff;}
+header li{line-height: 60px;text-align: center;}
+
+main{width: 100%;background: #fff;height: 58px;border-bottom:1px solid #E6E6E6;}
+main ul li{float: left;}
+main li:nth-child(1) a{font-size:1rem;color: #666697;}
+main li:nth-child(1){width: 27%;padding:0px 0 0 10px;}
+
+main li:nth-child(2) a{font-size: 1rem;color: #F24238;font-weight: bolder;}
+main li:nth-child(2){width: 27%;height: 55px;border-bottom:3px solid #F34D44;}
+main li:nth-child(3) a{font-size: 1rem;color: #666666;font-weight: bolder;}
+main li:nth-child(3){width: 27%;padding: 0px 0 0 0;}
+main li:nth-child(4) img{width: 20px;height: 20px;}
+main li:nth-child(4){width: 9%;padding: 5px 0px 0 5px;}
+
+
+.d1{padding-top: 132px;}
+div{width: 100%;height: 140px;}
+div dt{width: 28%;height: 140px;float: left;}
+div dd{width:50%;line-height: 30px;float: left;padding: 10px 0 8px 0;border-bottom:1px solid #E6E6E6;}
+div dl dt img{width: 76%;height: 112px;padding: 14px;}
+div dl dd span:nth-of-type(1){font-size: 1.1rem;color: #333333;font-weight: bolder;}
+div dl dd img{width: 35px;height: 15px;}
+div dl dd span:nth-of-type(2){font-size: 0.8rem;color: #9A9A9A;}
+div dl dd span:nth-of-type(2) a{font-size: 1.1rem;color: #FAAF01;font-weight: bolder;}
+div dl dd span:nth-of-type(3){font-size: 0.8rem;color: #9A9A9A;line-height: 5px;}
+div dl dd span:nth-of-type(4){font-size: 0.8rem;color: #9A9A9A;}
+/* div dl dd:last-child{width:18%;float: right; }
+div dl dd:last-child span{display:block;width:40px;background: #f00; margin-top:75%;border-radius: 5px;font-size: 0.9rem;color: #fff;text-align: center;} */
+div .gp{width: 18%;float: left;border-bottom:1px solid #E6E6E6;}
+div .gp span{width:40px; background: #f00;border-radius: 5px;font-size: 0.9rem;color: #fff;text-align: center;margin-top: 55px;display: block;} 
+div .pg{width: 18%;float: left;border-bottom:1px solid #E6E6E6;}
+div .pg span{width:40px; background: #3C9FE6;border-radius: 5px;font-size: 0.9rem;color: #fff;text-align: center;margin-top: 55px;display: block;}
+
+
+.top{width: 100%;height: 50px;background: #ffffff;position: fixed;bottom:0;border-top: 1px solid #E6E6E6;}
+.top ul{width: 33%;float: left;text-align: center;margin-top: 5px;}
+.top img{width: 25px;height: 22px;}
+.top li{font-size: 0.7rem;color: #000;}
+.top ul:first-child li{color: #f00;}
